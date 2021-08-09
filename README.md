@@ -1,25 +1,23 @@
-# 2021_알고리즘 공부 with java
-
+# 2021_알고리즘 스터디 with java
 ![issue-badge](https://img.shields.io/badge/tools-Eclipse-blueviolet) ![issue-badge](https://img.shields.io/badge/Language-Java-green)
+&nbsp;
+## 스터디 기간
+#### 2021.08.03~
+&nbsp;
 
+## 🔥진행방식🔥 
+- 매 주 5문제씩 풀이 후 업로드
+- 격 주로 모의테스트
+- 각자 한 문제씩 맡아서 리뷰
 
+&nbsp;
 
-## 기간 
+## 🌈Contributors 
+| [**hongjunland**](https://github.com/hongjunland) | [**seojiwon0702**](https://github.com/seojiwon0702) |
+| :-----------------------------------------------: | :-------------------------------------------------: |
+|         [**CindyB**](https://github.com/)         | [**rieull0225**](https://github.com/rieull0225) |
 
-2021.08.03 ~
-
-
-
-## 목표 
-
-일주일에 5문제 이상 풀기
-
-
-
-## 무엇을? 
-
-Baekjoon 기준 from 실버 to 골드 문제
-
+&nbsp;
 
 
 ## 📗 Problem
@@ -41,3 +39,9 @@ Baekjoon 기준 from 실버 to 골드 문제
 | 13주차 |                                              |                                                   |                                                     |                                                       |                                                   |                                                          |
 | 14주차 |                                              |                                                   |                                                     |                                                       |                                                   |                                                          |
 | 15주차 |                                              |                                                   |                                                     |                                                       |                                                   |                                                          |
+
+
+&nbsp;
+
+## ⏳ Test
+추후 논의
