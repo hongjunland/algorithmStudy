@@ -3,7 +3,6 @@ import java.io.*;
 public class BJ1004{
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         String line = br.readLine();
         int t = Integer.parseInt(line);
@@ -26,19 +25,12 @@ public class BJ1004{
                 int r = Integer.parseInt(line.split(" ")[2]);
                 dA = Math.sqrt(Math.pow((double)x1 - (double)cx, 2) + Math.pow((double)y1 - (double)cy, 2));
                 dB = Math.sqrt(Math.pow((double)x2 - (double)cx, 2) + Math.pow((double)y2 - (double)cy, 2));
-                if(dA < (double)r && dB < (double)r){
+                if(dA < (double)r && dB < (double)r);
+                else if(dA < r)count++;
+                else if(dB < r) count++;
 
-                }else if(dA < r){
-                    count++;
-                }else if(dB < r){
-                    count++;
-                }
             }
-            bw.write(count + "\n");
+            System.out.println(count + "\n");
         }
-
-        bw.flush();
-        br.close();
-        bw.close();
     }
 }
