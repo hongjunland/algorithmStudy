@@ -1,22 +1,18 @@
-import java.util.Scanner;
-
+import java.util.*;
+import java.io.*;
 public class bj10775 {
-	
 	static int[] parent = new int[100001];
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
+	public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		int M = Integer.parseInt(br.readLine());
 		
-		for(int i=1;i<=N;i++) {
-			parent[i] = i;
-		}
+		for(int i=1;i<=N;i++) parent[i] = i;
 		int answer = 0;
 		
-		int M = sc.nextInt();
 		for(int i=0;i<M;i++) {
-			int airplane = sc.nextInt();
+			int airplane = Integer.parseInt(br.readLine());
 			if(airplane > N) break;
 			if(find(airplane)==0) break;
 			else answer++;
