@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class bj1912_이홍준 {
+public class BJ1912_이홍준 {
     static int N;
     static int[] nums;
     static int Max = Integer.MIN_VALUE;
