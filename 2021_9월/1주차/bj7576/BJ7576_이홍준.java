@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class bj7576_이홍준 {
+public class BJ7576_이홍준 {
     static int M;
     static int N;
     static int[][] Mat;
